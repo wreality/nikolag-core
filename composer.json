@@ -53,9 +53,12 @@
     }
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "2.8.x-dev"
-    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/wreality/nikolag-core"
+      }
+    ],
     "laravel": {
       "providers": [
         "Nikolag\\Core\\Providers\\MigrationServiceProvider",
